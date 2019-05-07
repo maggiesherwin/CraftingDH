@@ -12,7 +12,4 @@ My [third annotation](https://hyp.is/FhDMDnDuEemuymfhkFAccA/workbook.craftingdig
 
 
 ## Comments/Concerns
-
-Overall, this week went well. It seemed daunting at first, but I soon realized that everyone makes mistakes, especially when they are learning new skills, using new software, etc. **Making mistakes is part of the process and necessary to learn.**
-
 I learned quite a few things this week, one being how to move a file around on GitHub. I also learned that you have to add .md to the end of filenames in order for them to not look like HTML text but an actual readable page. 
