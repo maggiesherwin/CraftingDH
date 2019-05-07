@@ -1,10 +1,9 @@
-# Week 1 fail log
-Admittedly, I had a difficult first week. I was able to create my GitHub, DH Box, and Hypothesis accounts but there were a few hiccups (that I annotated using Hypothesis).   
+# In the Beginning...
+I found this first week relatively straightforward and easy to complete.    
 
 ## First Annotation
-My [first annotation](https://hyp.is/kVL5clh7EemcYK_k_itFTg/workbook.craftingdigitalhistory.ca/introduction/crafting-digital-history/) was about my confusion setting up the DH Box account. I did not pay attention to the sign-up and accidentally chose the 24 account time frame instead of the month long account. Unfortunately, I only realized this after I couldn't login to my account anymore. I had some files in my DH Box account already which I have since lost.
+My [first annotation](https://hyp.is/GWiT7HDoEem9pe8EFtgT-A/site.craftingdigitalhistory.ca/first-things-first.html) was me commenting on the question of how Google has shaped/is shaping our historical conciousness and the ways that we think about history and event the truth. When I first learned about SEO I was admittedly confused as I had thought that the most relevant search results would always show up first. This changed how I thought about Google and even how I now word my Google queries.  
 
-This exerperience taught me to pay attention to every step of the sign-up process also that I should download my file/work as well as copy a list of my commands (I learned that I can do this by typing ``ls`` into the terminal!)
 
 ## Second Annotation
 My [second annotation](https://hyp.is/1cuQqlh7Eem3qVOpwa1E0Q/workbook.craftingdigitalhistory.ca/introduction/crafting-digital-history/) kind of connects to my first one. I forgot my password at the end of the week and noticed that DH Box doesn't have a 'forgot password' retrieval option. Thankfully, I had learned from the experience of my first annotation and documented my workflow/downloaded my files I had in the DH Box. 
