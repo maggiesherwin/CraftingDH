@@ -1,5 +1,5 @@
 # In the Beginning...
-I found this first week relatively straightforward and easy to complete. I began by reading through the syllabus, getting confused by the syllabus, and then marking down the parts I did not understand so I can try to figure them out later by highlighting them.
+I found this first week relatively straightforward and easy to complete. I began by reading through the syllabus, getting confused by the syllabus, and then marking down the parts I did not understand so I can try to figure them out later by highlighting them. You might also notice a lot of updates to my pages, as I like to frequently save in order to avoid losing anything. The benefits of having parents that do mainly digital work and cannot afford to lose anything.
 
 ## First Annotation
 My [first annotation](https://hyp.is/GWiT7HDoEem9pe8EFtgT-A/site.craftingdigitalhistory.ca/first-things-first.html) was me commenting on the question of how Google has shaped/is shaping our historical conciousness and the ways that we think about history and event the truth. When I first learned about SEO I was admittedly confused as I had thought that the most relevant search results would always show up first. This changed how I thought about Google and even how I now word my Google queries.  
