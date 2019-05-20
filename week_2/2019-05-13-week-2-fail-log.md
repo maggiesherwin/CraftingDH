@@ -1,10 +1,10 @@
 # Week 2
 ## Activities
-**Markdown Syntax**
+#### Markdown Syntax
 
-**DHBox**
+#### DHBox
 
-**DHBox and GitHub**
+#### DHBox and GitHub
 
 ## What I learned
 
@@ -24,4 +24,5 @@ Owens' "about me" section is mainly about his credentials, showing that he does 
 
 #### W. Caleb McDaniel
 I find it interesting that McDaniel's about me is also his CV. Like Owens, this "about me" is mainly showing his achievements and credentials, and not about his approach to history. There is nothing personal or revealing that helps me understand his persepctive more. His idea of openness is of making notebooks and sources available, which I find to be problematic when it comes to the value of theories and research, and copyright law. 
+
 
