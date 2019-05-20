@@ -1,15 +1,6 @@
 # Week 2
-## Activities
-**Markdown Syntax**
+What did I learn?
+How did I conduct myself?
+Why did I do the things I did? 
 
-**DHBox**
-
-**DHBox and GitHub**
-
-## What I learned
-
-**Patience**
-I learned (as I do all the time) that I need to work on my patience, and stop thinking that I know how to do things correctly the first time. This came into play when I was attempting to fork, clone, branch, add files to, and push a repository. I had to try this three times before actually getting it, and all I was doing was forgetting to commit changes. It was frustrating, but I did get it, and now I have a list of the commands I need to remember to do when doing this. 
-
-
-## Prompt
+Then, make an entry on your blog that contrasts this picture of 'open access research' with what you may have learned about doing history in your other courses. Where are the dangers and where are the opportunities? What does 'open access' mean for you as a student?
