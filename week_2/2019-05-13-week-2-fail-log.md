@@ -8,8 +8,17 @@
 
 ## What I learned
 
-**Patience**
+#### Patience
 I learned (as I do all the time) that I need to work on my patience, and stop thinking that I know how to do things correctly the first time. This came into play when I was attempting to fork, clone, branch, add files to, and push a repository. I had to try this three times before actually getting it, and all I was doing was forgetting to commit changes. It was frustrating, but I did get it, and now I have a list of the commands I need to remember to do when doing this. 
 
 
 ## Prompt
+*Is this where this belongs??? I am not entirely sure???*
+
+1. How are these scholars portraying themselves?
+2. How do they approach the idea of 'openness'?
+3. How is your own work 'generous'?
+
+#### Trevor Owens
+Owens' "about me" section is mainly about his credentials, showing that he does know what he is talking about. From this, Owens seems to be focused incredibly on the importance of facts and evidence, which is also reflected in his article. His idea of 'openness' more as transparency, where people can be called out and have to be able to prove where their ideas are from.
+
