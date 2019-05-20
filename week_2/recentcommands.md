@@ -1,3 +1,5 @@
+   ## Learning to clone, branch, change, commit, and push .git repositories
+   
     1  git clone https://github.com/maggiesherwin/hello-world/tree/master
     2  git clone https://github.com/maggiesherwin/hello-world.git
     3  ls
@@ -19,7 +21,7 @@
     19  git push origin experiment
     20  git add -A
     21  git commit
-     22  git push origin experiment
+    22  git push origin experiment
     23  git remote add upstream https://github.com/maggiesherwin/hello-world.git
     24  git pull origin master
     25  cd
