@@ -17,9 +17,12 @@ I find it interesting that McDaniel's about me is also his CV. Like Owens, this 
 I am very glad to see that while Milligan does list his credentials, he does also include an "about me" that gives more context to his perspective. I believe that to Milligan, openess is about making sources more available, which in turn will make them less confusing (a consequence of multiple researchers each making their own data record with their own criteria and/or relevant information).
 
 #### Michelle Moravec
-Compared to the other "about me" sections, Moravec's is a breath of fresh air. Instead of listing credentials, Moravec shares her past and goals when it comes to research. Her idea of 'openness' is that of open notebooks - much like McDaniel - where the writing process can be shared with others. 
+Compared to the other "about me" sections, Moravec's is a breath of fresh air. Instead of listing credentials, Moravec shares her past and goals when it comes to research. This 
+
+Her idea of 'openness' is that of open notebooks - much like McDaniel - where the writing process can be shared with others. 
 
 #### Kathleen Fitzpatrick
+We are back to the resume biographies! Once again, 
 
 
 What did I learn?
@@ -29,8 +32,10 @@ Why did I do the things I did?
 Then, make an entry on your blog that contrasts this picture of 'open access research' with what you may have learned about doing history in your other courses. Where are the dangers and where are the opportunities? What does 'open access' mean for you as a student?
 
 A few notes:
+- AUTOCORRECT SHOULD WORK IN GITHUB (I understand why it does not, but it is frustrating to see how many mistakes I make without a machine correcting me)
 - Many historians make bad websites. 
-- Historians with websited need to make better "about me" pages. When looking aty the below quotes, the second one tells me much more about the person wrriting, while the first is more of a resume than anything else. I do not understand this completely, because the vast majority of readers are not looking to hire the author of what they are reading.
+- It is interesting that historians arguing for open notes and data are more often than not trying to portray themselves as "experts" in their biographies, using their credentials to show that their opinion matters. 
+- Historians with websites need to make better "about me" pages. When looking at the below quotes, the second one tells me much more about the person wrriting, while the first is more of a resume than anything else. I do not understand this completely, because the vast majority of readers are not looking to hire the author of what they are reading.
 
 > I am (name) and these are the positions I have had over the years: ...
 
