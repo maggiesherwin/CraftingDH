@@ -1,10 +1,16 @@
 # Week 2
+(this will not be great because I forgot once again to write down what I was doing as I was doing it)
 ## Activities
 #### Markdown Syntax
+I found this part to be relatively easy, as I enjoy digital syntax a lot. But, being experienced in HTML made using Markdown an interesting experience where I found myself frustrated by the limited capablites, instead of feeling freer from not having to deal with as much code. 
+
+The inline/reference difference confused me, but I read somewhere that you should always use reference, so I did that. Plus, reference links make the code easier to read, and are also similar to the code used by Tumblr (where I learned HTML), so I preferred it. 
 
 #### DHBox
+My experience with command line is that I find the command I am looking for somewhere else, and proceed to dump it in without even knowing what I am doing. I found this excersise to be helpful in understanding exactly what commands do (even though I still don't completely understand). I also found the way that we can use programs within command line to do more really interesting! I had no idea this could be done. 
 
 #### DHBox and GitHub
+I found exercise 3 to be a little pointless, if only because we had already set up our repositories in week 1. but exercise 4 was where I struggled. 
 
 ## What I learned
 
