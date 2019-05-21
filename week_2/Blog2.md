@@ -19,6 +19,9 @@ I am very glad to see that while Milligan does list his credentials, he does als
 #### Michelle Moravec
 Compared to the other "about me" sections, Moravec's is a breath of fresh air. Instead of listing credentials, Moravec shares her past and goals when it comes to research. Her idea of 'openness' is that of open notebooks - much like McDaniel - where the writing process can be shared with others. 
 
+#### Kathleen Fitzpatrick
+
+
 What did I learn?
 How did I conduct myself?
 Why did I do the things I did? 
@@ -27,4 +30,12 @@ Then, make an entry on your blog that contrasts this picture of 'open access res
 
 A few notes:
 - Many historians make bad websites. 
+- Historians with websited need to make better "about me" pages. When looking aty the below quotes, the second one tells me much more about the person wrriting, while the first is more of a resume than anything else. I do not understand this completely, because the vast majority of readers are not looking to hire the author of what they are reading.
+
+> I am (name) and these are the positions I have had over the years: ...
+
+vs
+
+> Intersectional feminist, medievalist, aspiring shield maiden. Senior Lecturer in Medieval Literature; research: Chaucer, manuscripts and queer theory. she/her (https://twitter.com/RobertaDMagnani)
+
 - Many of these ideas would work in a perfect society, but seeing as we live in one where information and knowledge have value, it is hard to see how the ideas discussed in the readings will work practically. For example, if all knowledge is available, there can be no real experts. The purpose of university is to gain more knowledge than available through a basic google search. If all of that information is available online and everyone can learn everything, what is the point in studying anything. As someone with a giant netflix queue that watches maybe one episode of a show every week, I can see this becoming a problem where I have all of these realings and interesting things to learn, but quickly become overwhelmed. It is easier to read the only available source for something (even if it isn't a great source) than it is to read EVERY source about it. Maybe if the robots could read it for me and spit it out in a 4 page document.
