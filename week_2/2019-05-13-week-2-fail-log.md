@@ -12,10 +12,10 @@ My experience with command line is that I find the command I am looking for some
 #### DHBox and GitHub
 I found exercise 3 to be a little pointless, if only because we had already set up our repositories in week 1. but exercise 4 was where I struggled. 
 
-## WINS
+##### WINS
 - I got everything to work (eventually)
 
-## Fails
+##### Fails
 - I forgot to save a list of my commands
 - I refreshed DHBox every time my screen was full, losing my history every time
 
