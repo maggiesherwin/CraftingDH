@@ -51,7 +51,7 @@ f.close
 - Look at the file by typing `nano urls.txt` and exit nano
 - `wget -i urls.txt -r --no-parent -nd -w 2 --limit-rate=100k`
 - `ls`
-- Make sure the 80 new files are there
+- Make sure the 80 new files are there (All 80 were there!!)
 - `history > WGET_Commands.md`
 - Check to see if the file is there with `ls`
 - `cp WGET_Commands.md /home/maggiesherwin/CraftingDH/week_3`
