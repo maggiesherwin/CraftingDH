@@ -6,3 +6,4 @@ Have you ever sat down with one of the librarians to get help finding something?
 
 ## A few notes:
 - 
+## Fail log lessons
