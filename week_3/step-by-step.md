@@ -25,6 +25,11 @@ Saving to: `index.html.1'
 - `wget -r --no-parent -w 2 --limit-rate=20k http://activehistory.ca/papers/` This will download all papers (files) on this site
 - `wget -m -w 2 --limit-rate=20k http://activehistory.ca` This will mirror the entire site
 - Record history and save as .md file in repository
+- `history > WGET_CommandsTutorial.md`
+- Check to see if the file is there with `ls`
+- `cp WGET_CommandsTutorial.md /home/maggiesherwin/CraftingDH/week_3`
+- `cd /home/maggiesherwin/CraftingDH/week_3`
+- use `ls` to make sure `WGET_CommandsTutorial.md` is there
 ##### Part 2
 - `~`
 - `mkdir war-diary`
