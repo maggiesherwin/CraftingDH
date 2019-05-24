@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae ferm
     5  ls (They are all there!)
     6  nano urls.txt
     7  wget -i urls.txt -r --no-parent -nd -w 2 --limit-rate=100k
-    8  ls
+    8  ls (ALL 80 WERE THERE!)
     9  history > WGET_Commands.md
 	
 	
