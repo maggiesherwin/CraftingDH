@@ -7,4 +7,4 @@
     7  sudo apt-get install imagemagick
     8  convert -density 300 ~/war-diary/e001518087.jpg -depth 8 -strip -background white -alpha off e001518087.tiff
     9  tesseract e001518087.tiff output.txt
-   10  history > tesseractsetup.md
+    10  history > tesseractsetup.md
