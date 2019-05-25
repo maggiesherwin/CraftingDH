@@ -57,14 +57,6 @@ f.close
 - `cp WGET_Commands.md /home/maggiesherwin/CraftingDH/week_3`
 - `cd /home/maggiesherwin/CraftingDH/week_3`
 - use `ls` to make sure `WGET_Commands.md` is there
-
-
-
-
-
-
-
-
 #### TEI
 - Open the blanktemplate.txt file in Sublime Text, and have the pamphlet you chose also open
 - Choose a page to transcribe
@@ -79,14 +71,54 @@ f.close
 - Rename your file as a .xml file
 - Save it and the .xsi file to your repository
 
-
-
-
-
 #### APIs
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae fermentum mauris. Morbi ac purus eget lorem congue tincidunt. Praesent in massa vulputate, pretium massa ac, aliquet nulla. Suspendisse condimentum nisl in sapien mattis, nec ullamcorper ipsum elementum. Suspendisse potenti. Aenean mattis sapien non vulputate dictum. Praesent aliquam ligula non est pulvinar posuere. Morbi faucibus est nec turpis ultrices vehicula. Duis bibendum felis tellus, at sodales enim congue quis. Nam imperdiet, nibh suscipit tempus consequat, nisi diam sagittis arcu, eu cursus lectus urna sed ligula. Nunc pharetra orci molestie nunc finibus, at eleifend ligula dictum.
+##### Part 1
+- Open the 'Chronicling America API' notebook. 
+- Run through its various steps so that you end up with a json file of results. 
+- Imagine that you are writing a paper on the public reception of archaeology in the 19th century in the United States. Alter the notebook so that you can find primary source material for your study. 
+- Going further: Find another API for historical newspapers somewhere else in the world. 
+- Duplicate the notebook, and alter it to search this other API so that you can have material for a cross-cultural comparison.
+##### Part 2
+- Open the 'Open Context API'. 
+- Notice how similar it is to the first notebook! 
+- Run through the steps so that you can see it work. 
+- Study the [Open Context API documentation]. 
+- Modify the search to return materials from a particular project or site.
+##### Part 3
+- Open 'Open Context Measurements'
+- Search for zoological data held in Open Context, using standardised vocabularies from that field that described faunal remains. 
+- Examine the code carefully - do you see a series of nested 'if' statements? 
+- Run each section of the code. 
+- Do you see the section that defines how to make a plot? This code is called on later in the notebook, enabling us to plot the counts of the different kinds of faunal data. 
+- Try plotting different categories.
+##### Part 4
+- The [Portable Antiquities Scheme] database also has an API. 
+- Launch this [binder] and open the 'Retrieving Data from the Portable Antiquities Scheme Database' notebook (courtesy of Daniel Pett). 
+- Work out how to make the query search for medieval materials, and write a csv to keep more of the data fields.
+- Do this: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+
 #### Mining Twitter
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae fermentum mauris. Morbi ac purus eget lorem congue tincidunt. Praesent in massa vulputate, pretium massa ac, aliquet nulla. Suspendisse condimentum nisl in sapien mattis, nec ullamcorper ipsum elementum. Suspendisse potenti. Aenean mattis sapien non vulputate dictum. Praesent aliquam ligula non est pulvinar posuere. Morbi faucibus est nec turpis ultrices vehicula. Duis bibendum felis tellus, at sodales enim congue quis. Nam imperdiet, nibh suscipit tempus consequat, nisi diam sagittis arcu, eu cursus lectus urna sed ligula. Nunc pharetra orci molestie nunc finibus, at eleifend ligula dictum.
+- Go to the Twitter apps page
+- Click on 'New App'
+- Name your app `my-twarc`
+- For the website, enter `site.craftingdigitalhistory.ca`
+- Leave all other fields blank
+- Click on the tab labelled Keys and Access Tokens.
+- Copy the 'Consumer Key (API Key)' (the consumer secret) to a text file.
+- Click on the button labelled Create Access Tokens at the bottom of the page.
+- Copy those to your text file and save it. 
+- Right-click the following Binder link and select Open in new tab: [Binder]
+- It is setting up your new virtual computer. When it's loaded up, it will resemble the following image: 
+![alt text][Completed Virtual Computer]
+- Click the 'New' button, and select 'Terminal'.
+- Type `twarc configure` into the terminal
+
+
+
+
+
+
+
 #### Tesseract
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae fermentum mauris. Morbi ac purus eget lorem congue tincidunt. Praesent in massa vulputate, pretium massa ac, aliquet nulla. Suspendisse condimentum nisl in sapien mattis, nec ullamcorper ipsum elementum. Suspendisse potenti. Aenean mattis sapien non vulputate dictum. Praesent aliquam ligula non est pulvinar posuere. Morbi faucibus est nec turpis ultrices vehicula. Duis bibendum felis tellus, at sodales enim congue quis. Nam imperdiet, nibh suscipit tempus consequat, nisi diam sagittis arcu, eu cursus lectus urna sed ligula. Nunc pharetra orci molestie nunc finibus, at eleifend ligula dictum.
 
@@ -96,5 +128,10 @@ Links
 [Epigraphic Database Heidelberg]: <http://edh-www.adw.uni-heidelberg.de/inschrift/suche>
 [Commwealth War Graves Commission, Find War Dead]: <https://www.cwgc.org/find/find-war-dead>
 [Link to annotation]: <enter-link-here>
+[Open Context API documentation]: <https://opencontext.org/about/services>
+[Portable Antiquities Scheme]: <https://finds.org.uk/>
+[binder]: <https://mybinder.org/v2/gh/o-date/notebooks-archdata/master>
+[Binder]: <https://mybinder.org/v2/gh/o-date/social-media-work/master>
+[Completed Virtual Computer]: http://www.screencast-o-matic.com/screenshots/u/e7i1/1539304640402-48607.png "VC"
 
 
