@@ -61,6 +61,51 @@
     7  sudo apt-get install imagemagick
     8  convert -density 300 ~/war-diary/e001518087.jpg -depth 8 -strip -background white -alpha off e001518087.tiff
     9  tesseract e001518087.tiff output.txt (omg it is SO bad)
+- Installed all dependencies
+- Ended up updating EVERYTHING (took about 2 hours)
+```
+1 sudo apt-get install libcurl4-gnutls-dev
+2 sudo apt-get install libmagick++-dev
+3 sudo apt-get install libtesseract-dev
+4 sudo apt-get install libleptonica-dev
+5 sudo apt-get install tesseract-ocr-eng
+6 sudo apt-get install libpoppler-cpp-dev
+7 sudo apt-get update
+8 sudo apt-get upgrade
+9 history > upgradingeverything.md
+```
+- Ran the script and opened the RStudio file (Somehow even worse than the command line one??)
+- Made screenshots of the text files and ran them both through their respective programs
+- Both were bad again, but the RStudio one was better
+- Trying to batch convert all the images
+- Fell into trouble with this script, but was able to change it by adding a ~ to `"~/war-diary"`
+```
+    library(magick) 
+    library(magrittr)
+    library(pdftools)
+    library(tesseract)
+
+    dest <- "/war-diary"
+    myfiles <- list.files(path = dest, pattern = "jpg", full.names = TRUE)
+
+    # improve the images
+    # ocr 'em
+    # write the output to text file
+
+    lapply(myfiles, function(i){
+        text <- image_read(i) %>%
+        image_resize("3000x") %>%
+        image_convert(type = 'Grayscale') %>%
+        image_trim(fuzz = 40) %>%
+        image_write(format = 'png', density = '300x300') %>%
+        tesseract::ocr()
+
+    outfile <- paste(i,"-ocr.txt",sep="")
+    cat(text, file=outfile, sep="\n")
+
+    })
+```
+
 ### Figuring out how to copy a file to a different directory
     1  cd hello-world
     2  ls
