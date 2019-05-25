@@ -1,7 +1,20 @@
 # Week 3
 ## Activities
 ### The Dream Case
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae fermentum mauris. Morbi ac purus eget lorem congue tincidunt. Praesent in massa vulputate, pretium massa ac, aliquet nulla. Suspendisse condimentum nisl in sapien mattis, nec ullamcorper ipsum elementum. Suspendisse potenti. Aenean mattis sapien non vulputate dictum. Praesent aliquam ligula non est pulvinar posuere. Morbi faucibus est nec turpis ultrices vehicula. Duis bibendum felis tellus, at sodales enim congue quis. Nam imperdiet, nibh suscipit tempus consequat, nisi diam sagittis arcu, eu cursus lectus urna sed ligula. Nunc pharetra orci molestie nunc finibus, at eleifend ligula dictum.
+    1  cd /home/maggiesherwin/CraftingDH/week_3
+    2  git pull (updating my repo on DHBox)
+    3  ls
+    4  nano the-dream-case.md
+    5  git add -A
+    6  git commit
+    7  git oush (misspelled that!)
+    8  git push
+    9  nano the-dream-case.md (editing the file to make it look nicer)
+    10  git add -A
+    11  git commit
+    12  git push (pushing my updates to the repo)
+    13  history > making-and-pushing.md
+
 ### Wget
 #### Programming Historian Tutorial
 	1  mkdir wget-activehistory
@@ -23,11 +36,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae ferm
 	
 	
 ### TEI
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae fermentum mauris. Morbi ac purus eget lorem congue tincidunt. Praesent in massa vulputate, pretium massa ac, aliquet nulla. Suspendisse condimentum nisl in sapien mattis, nec ullamcorper ipsum elementum. Suspendisse potenti. Aenean mattis sapien non vulputate dictum. Praesent aliquam ligula non est pulvinar posuere. Morbi faucibus est nec turpis ultrices vehicula. Duis bibendum felis tellus, at sodales enim congue quis. Nam imperdiet, nibh suscipit tempus consequat, nisi diam sagittis arcu, eu cursus lectus urna sed ligula. Nunc pharetra orci molestie nunc finibus, at eleifend ligula dictum.
+- Transcribed the page
+- Searched for HTML entities so I could use long dahses and parentheses. 
+- Had a lot of trouble finding information about people mentioned
+	- Finally found a worldcat entry for Lt. Hall, but could not find anything about the mentioned "Mr. Duff"
+- Recieved an error when first trying to load the .xml file
+	- I was using HTML enteties which do not work in .xml files
+- Found the correct codes for special characters [here] 
+- It loaded!! And the text encoding worked as well!
 ### APIs
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae fermentum mauris. Morbi ac purus eget lorem congue tincidunt. Praesent in massa vulputate, pretium massa ac, aliquet nulla. Suspendisse condimentum nisl in sapien mattis, nec ullamcorper ipsum elementum. Suspendisse potenti. Aenean mattis sapien non vulputate dictum. Praesent aliquam ligula non est pulvinar posuere. Morbi faucibus est nec turpis ultrices vehicula. Duis bibendum felis tellus, at sodales enim congue quis. Nam imperdiet, nibh suscipit tempus consequat, nisi diam sagittis arcu, eu cursus lectus urna sed ligula. Nunc pharetra orci molestie nunc finibus, at eleifend ligula dictum.
+- Went through all of the APIs
+- Came across issues when trying to input query parameters
+- Found the solution for some of the binders, but not all
 ### Mining Twitter
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae fermentum mauris. Morbi ac purus eget lorem congue tincidunt. Praesent in massa vulputate, pretium massa ac, aliquet nulla. Suspendisse condimentum nisl in sapien mattis, nec ullamcorper ipsum elementum. Suspendisse potenti. Aenean mattis sapien non vulputate dictum. Praesent aliquam ligula non est pulvinar posuere. Morbi faucibus est nec turpis ultrices vehicula. Duis bibendum felis tellus, at sodales enim congue quis. Nam imperdiet, nibh suscipit tempus consequat, nisi diam sagittis arcu, eu cursus lectus urna sed ligula. Nunc pharetra orci molestie nunc finibus, at eleifend ligula dictum.
+- Relatively straightforward
+- Word cloud would not load in chrome, but when I tried it in Firefox it worked
 ### Tesseract
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae fermentum mauris. Morbi ac purus eget lorem congue tincidunt. Praesent in massa vulputate, pretium massa ac, aliquet nulla. Suspendisse condimentum nisl in sapien mattis, nec ullamcorper ipsum elementum. Suspendisse potenti. Aenean mattis sapien non vulputate dictum. Praesent aliquam ligula non est pulvinar posuere. Morbi faucibus est nec turpis ultrices vehicula. Duis bibendum felis tellus, at sodales enim congue quis. Nam imperdiet, nibh suscipit tempus consequat, nisi diam sagittis arcu, eu cursus lectus urna sed ligula. Nunc pharetra orci molestie nunc finibus, at eleifend ligula dictum.
 ### Figuring out how to copy a file to a different directory
@@ -75,3 +98,4 @@ List of commands I used to connect my GitHub Repository to my DHBox
 	7  git push
 	8  history > Connecting-Repo.md
 
+[here]: <https://dvteclipse.com/documentation/svlinter/How_to_use_special_characters_in_XML.3F.html>
