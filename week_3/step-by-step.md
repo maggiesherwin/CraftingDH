@@ -72,6 +72,7 @@ f.close
 - Save it and the .xsi file to your repository
 
 #### APIs
+- Launch the [jupyter binder]
 ##### Part 1
 - Open the 'Chronicling America API' notebook. 
 - Run through its various steps so that you end up with a json file of results. 
@@ -133,5 +134,4 @@ Links
 [binder]: <https://mybinder.org/v2/gh/o-date/notebooks-archdata/master>
 [Binder]: <https://mybinder.org/v2/gh/o-date/social-media-work/master>
 [Completed Virtual Computer]: http://www.screencast-o-matic.com/screenshots/u/e7i1/1539304640402-48607.png "VC"
-
-
+[jupyter binder]: <https://mybinder.org/v2/gh/o-date/open-context-jupyter/master>
