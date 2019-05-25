@@ -79,6 +79,7 @@
 - Both were bad again, but the RStudio one was better
 - Trying to batch convert all the images
 - Fell into trouble with this script, but was able to change it by adding a ~ to `"~/war-diary"`
+- Saved files to my personal computer in my `HIST3814` folder
 ### DID NOT WORK
 ```
     library(magick) 
