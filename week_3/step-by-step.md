@@ -113,15 +113,64 @@ f.close
 ![alt text][Completed Virtual Computer]
 - Click the 'New' button, and select 'Terminal'.
 - Type `twarc configure` into the terminal
-
-
-
-
-
-
-
+- `twarc search electricarchaeo > electricarchaeo.jsonl`
+- `git clone https://github.com/DocNow/twarc`
+- `twarc/utils/wordcloud.py electricarchaeo.jsonl > wordcloud.html`
 #### Tesseract
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae fermentum mauris. Morbi ac purus eget lorem congue tincidunt. Praesent in massa vulputate, pretium massa ac, aliquet nulla. Suspendisse condimentum nisl in sapien mattis, nec ullamcorper ipsum elementum. Suspendisse potenti. Aenean mattis sapien non vulputate dictum. Praesent aliquam ligula non est pulvinar posuere. Morbi faucibus est nec turpis ultrices vehicula. Duis bibendum felis tellus, at sodales enim congue quis. Nam imperdiet, nibh suscipit tempus consequat, nisi diam sagittis arcu, eu cursus lectus urna sed ligula. Nunc pharetra orci molestie nunc finibus, at eleifend ligula dictum.
+- `mkdir ocr-test`
+- `cd ocr-test`
+- `sudo apt-get install tesseract-ocr`
+- `sudo apt-get install imagemagick`
+- `convert -density 300 ~/war-diary/e001518087.jpg -depth 8 -strip -background white -alpha off e001518087.tiff`
+- `tesseract e001518087.tiff output.txt`
+- Download `output.txt`
+- Open `output.txt` in a word processor
+- Open RStudio
+- On the upper left side, click the green plus button > R Script
+- Paste in the following script and save it as `ocr` in RStudio
+```
+install.packages('magick')
+install.packages('magrittr')
+install.packages('pdftools')
+install.packages('tesseract')
+library(magick) 
+library(magrittr)
+library(pdftools)
+library(tesseract)
+text <- image_read("~/war-diary/e001518087.jpg") %>% 
+  image_resize("2000") %>% 
+  image_convert(colorspace = 'gray') %>% 
+  image_trim() %>% 
+  image_ocr()
+write.table(text, "~/ocr-test/R.txt")
+```
+- `sudo apt-get install libcurl4-gnutls-dev`
+- `sudo apt-get install libmagick++-dev`
+- `sudo apt-get install libtesseract-dev`
+- `sudo apt-get install libleptonica-dev`
+- `sudo apt-get install tesseract-ocr-eng`
+- `sudo apt-get install libpoppler-cpp-dev`
+- Navigate to RStudio and run each `install.packages`
+- Run each `library()` line to load the libraries.
+- Run each line up to `image_ocr()`. This may take some time to complete.
+- Run the last line `write.table()` to export the OCR to a text file with the same name.
+- Navigate to your file manager and download both the `output.txt` file and the `R.txt` file.
+- Compare the two text files in your desktop. How is the OCR in the command line versus within R?
+- Now take a screen shot of both text files (just the text area) and name them `output_1.png` and `R_1.png` respectively.
+- Upload both files into DH Box via the File Manager.
+- In the command line, type `tesseract output_1.png output_1.txt.`
+- In RStudio, change the file paths in your script to the following:
+```
+text <- image_read("~/ocr-test/R_1.png") %>% 
+  image_resize("2000") %>% 
+  image_convert(colorspace = 'gray') %>% 
+  image_trim() %>% 
+  image_ocr()
+write.table(text, "~/ocr-test/R_1.txt")
+```
+- Run each script line again. Except this time DO NOT run the `install.packages()` lines since we already installed them. Simply load the libraries again and run each line.
+Navigate to the File Manager and download `ouput_1.txt` and `R_1.txt`.
+- Compare these two files. Did the OCR conversion get progressively worse? How do they compare to each other, to the first attempt at conversion, and then to the originals?
 
 <!---
 Links
