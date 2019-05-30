@@ -24,7 +24,8 @@
 - sed -r -i.bak 's/(.+\bto\b.+)/~\1/g' texas.txt
 - Type `ls` and you'll see that a new file, `texas.txt.bak` has been created.
 - Type `nano texas.txt` and examine the file. You should now have `~` at the start of each entry of the index!
-
+- `grep '~' texas.txt > index.txt`
+- `sed -r -i.bak 's/(,)([0-9]{4})(.+)/\2/g index.txt`
 #### Open Refine
 - Move your `cleaned-correspondence` file to somewhere safe on your computer.
 #### Capstone exercise
