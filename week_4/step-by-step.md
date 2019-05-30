@@ -15,7 +15,17 @@
 - If you wanted to switch the order of "dogs" and "cats" every time the phrase "dogs and cats" appeared in your document, you would type `(dogs)( and )(cats)` in the 'find' box, and `\3\2\1` in the 'replace' box. That would replace the entire string with group 3 ("cats") in the first spot, group 2 (" and ") in the second spot, and group 1 ("dogs") in the last spot, thus changing the result to "cats and dogs".
 - [regex lib cheat sheet](http://regexlib.com/CheatSheet.aspx)
 #### Regex & Texas
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet mi nisl, malesuada mollis arcu pharetra sit amet. Mauris non nibh orci. Fusce quam nibh, venenatis eget erat ut, dapibus venenatis sapien. Suspendisse laoreet nibh in molestie finibus. Fusce lorem dui, volutpat ac lacus et, lobortis tristique sem. Phasellus vulputate augue vel aliquam eleifend. Vestibulum semper convallis sapien a ultrices. Praesent tincidunt cursus faucibus. Sed finibus lorem cursus sodales iaculis. Aliquam ut augue vel velit auctor euismod. Nulla et neque mi. Vestibulum non dolor in ante suscipit dapibus nec non dolor.
+- `curl http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt`
+- `nano texas.txt` Delete everything except for the index of the list of letters 
+- Save the file
+- `grep '\bto\b' texas.txt` just to check things out
+- `(.+\<to\>)`
+- Copy and paste some of your text into [RegeXr](http://www.regexr.com/).
+- Write your regular expression (ie. what you're trying to find), and your substitution (ie. what you're replacing with) in the RegExr interface.
+- sed -r -i.bak 's/(.+\bto\b.+)/~\1/g' texas.txt
+- Type `ls` and you'll see that a new file, `texas.txt.bak` has been created.
+- Type `nano texas.txt` and examine the file. You should now have `~` at the start of each entry of the index!
+
 #### Open Refine
 - Move your `cleaned-correspondence` file to somewhere safe on your computer.
 #### Capstone exercise
