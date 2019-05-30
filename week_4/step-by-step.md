@@ -18,8 +18,7 @@
 - `curl http://archive.org/stream/diplomaticcorre33statgoog/diplomaticcorre33statgoog_djvu.txt > texas.txt`
 - `nano texas.txt` Delete everything except for the index of the list of letters 
 - Save the file
-- `grep '\bto\b' texas.txt` just to check things out
-- `(.+\<to\>)`
+- `grep '\bto\b' texas.txt`
 - Copy and paste some of your text into [RegeXr](http://www.regexr.com/).
 - Write your regular expression (ie. what you're trying to find), and your substitution (ie. what you're replacing with) in the RegExr interface.
 - sed -r -i.bak 's/(.+\bto\b.+)/~\1/g' texas.txt
