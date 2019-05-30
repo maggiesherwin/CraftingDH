@@ -1,7 +1,5 @@
 # Week 3
 ## Activities
-### Regex introduction
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet mi nisl, malesuada mollis arcu pharetra sit amet. Mauris non nibh orci. Fusce quam nibh, venenatis eget erat ut, dapibus venenatis sapien. Suspendisse laoreet nibh in molestie finibus. Fusce lorem dui, volutpat ac lacus et, lobortis tristique sem. Phasellus vulputate augue vel aliquam eleifend. Vestibulum semper convallis sapien a ultrices. Praesent tincidunt cursus faucibus. Sed finibus lorem cursus sodales iaculis. Aliquam ut augue vel velit auctor euismod. Nulla et neque mi. Vestibulum non dolor in ante suscipit dapibus nec non dolor.
 ### Regex & Texas
     1  mkdir regex
     2  cd regex
@@ -26,7 +24,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet mi nisl, 
     21  sed -r -i.bak 's/ Alce / Alcee /g' index.txt
     22  grep -r ".+,.+,.+," index.txt
     23  nano index.txt (Manually fixing stuff)
-    24  history > regex.md
+    24  cp index.txt cleaned-correspondence.csv
+    25  history > regex.md
 
 THIS WORKED
 `sed -r -i.bak 's/(,)( [0-9]{4})(.+)/\2/g' index.txt`
