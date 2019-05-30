@@ -32,7 +32,25 @@
 
 
 #### Open Refine
-- Move your `cleaned-correspondence` file to somewhere safe on your computer.
+- Move your `cleaned-correspondence` file to somewhere safe on your computer
+- Click ‘Create project’
+- Click ‘Choose files’ and select the Texan correspondence CSV file
+- Name your project and click ‘Create project’
+- Click on the arrow to the left of "Sender" in OpenRefine and select `Facet -> Text Facet`. Do the same with the arrow next to "Recipient".
+- Within the "Sender" facet box on the left side, click on the button labeled "Cluster"
+- Play with the values in the drop-down boxes and notice how the number of clusters found change depending on which method is used. Because the methods are slightly different, each will present different matches that may or may not be useful
+- If you see two values which should be merged, e.g. "Ashbel Smith" and ". Ashbel Smith", check the box to the right in the 'Merge' column and click the 'Merge Selected & Re-Cluster' button below
+- Repeat these steps with Recipients, reducing unique Recipients from 192 to about 160
+- To finish the automatic cleaning of the data, click the arrow next to "Sender" and select `Edit Cells -> Common transforms -> Trim leading and trailing whitespace`
+- Repeat steps for "Recipient"
+- Click on ‘Export’ at the top right of the window to get your data back out as a .csv file
+- In the arrow to the left of Sender in the main OpenRefine window, select Edit column -> Rename this column, and rename the column "source"
+- In the arrow to the left of Recipient in the main OpenRefine window, select Edit column -> Rename this column, and rename the column "target"
+- In the top right of the window, select 'Export -> Custom tabular exporter'
+- Notice that "source", "target", and "Date" are checked in the content tab; uncheck "Date"
+- Go to the download tab and change the download option from 'Tab-separated values (TSV)' to 'Comma-separated values (CSV)' and press download.
+- Go ahead and drop this file into the [Palladio](http://hdlab.stanford.edu/palladio/) interface. Do you see any interesting patterns? Make a note!
+- Upload your cleaned file with a new name back into your DH Box
 #### Capstone exercise
 - Google for sed patterns and see if you can combine what you find with what you've learned in this module in order to clean up the text
 - `find . -type f -exec sed -i.bak "s/foo/bar/g" {} \;` This finds all files in a folder and creates a backup for each one in turn before searching for foo and replacing it with bar.
