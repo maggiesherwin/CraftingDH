@@ -24,8 +24,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet mi nisl, 
     19  sed -r -i.bak 's/c6|c\^/ce/g' index.txt
     20  nano index.txt
     21  sed -r -i.bak 's/ Alce / Alcee /g' index.txt
-    22  nano index.txt (Manually fixing stuff)
-    23  history > regex.md
+    22  grep -r ".+,.+,.+," index.txt
+    23  nano index.txt (Manually fixing stuff)
+    24  history > regex.md
 
 THIS WORKED
 `sed -r -i.bak 's/(,)( [0-9]{4})(.+)/\2/g' index.txt`
