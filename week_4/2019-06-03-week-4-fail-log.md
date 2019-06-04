@@ -27,11 +27,6 @@
     24  cp index.txt cleaned-correspondence.csv
     25  history > regex.md
 
-THIS WORKED
-`sed -r -i.bak 's/(,)( [0-9]{4})(.+)/\2/g' index.txt`
-
-THIS DID NOT
-`sed -r -i.bak 's/(,)( [0-9]{4})(.+)/\2/g index.txt` Missed that one extra '!
 ### Open Refine
 - Loaded my `.csv` into Open Refine
 - Set facet for sender and reciepeint to `text facet`
