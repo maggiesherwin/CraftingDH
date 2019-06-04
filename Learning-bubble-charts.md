@@ -41,5 +41,6 @@ Require host localhost
 - should return `Syntax OK`
 - Enter http://localhost/ into your web browser
 - it should say `it works!`
-- localhost/~<username> should say `My Site Works`
-  
+- `localhost/~<username>` should say `My Site Works`
+- in terminal enter `echo "print \$ENV{MOD_PERL} . qq{\n};" > ~/Sites/info.pl`
+- in your browser go to `http://localhost/~<username>/info.pl`
