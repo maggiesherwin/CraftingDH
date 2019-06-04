@@ -21,7 +21,7 @@ Include /private/etc/apache2/extra/httpd-userdir.conf
 - `#Include /private/etc/apache2/users/*.conf` to `Include /private/etc/apache2/users/*.conf`
 - `SHIFT+Z+Z`
 - `mkdir ~/Sites`
-- `echo "<html><body><h1>My site works</h1></body></html>" > ~/Sites/index.html.en
+- `echo "<html><body><h1>My site works</h1></body></html>" > ~/Sites/index.html.en`
 - `cd /etc/apache2/users`
 - `ls`
 - Make sure `<username>.conf` is there
