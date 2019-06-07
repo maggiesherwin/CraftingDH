@@ -1,4 +1,4 @@
-# Week 2
+# Week 4
 
 ## Prompt
 Data cleaning is like the mouldy sandwich under the bed of digital history. It is not great, not fun to deal with, and is starting to stick up the whole room. I think that we like to pretend it isn't there mainly because if most people knew that working with data means a lot of manual clean up that takes a lot of manhours, it becomes much less appealing. But, I do think that data cleaning is kind of like the gatekeeper between using data and creating data. It is what makes people say either "this is good enough" or "this needs to be fixed". And no matter how many tools or programs are created, the need for a human to be able to go through the data carefully will never disappear. 
