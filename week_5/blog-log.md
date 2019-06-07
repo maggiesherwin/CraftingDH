@@ -1,4 +1,9 @@
-Blog
+# Week 4
+
+## Prompt
+Lorem ipsum
+
+## Exercises
 ### Gephi
 - Lorem ipsum
 ### Topic Modeling Tool
