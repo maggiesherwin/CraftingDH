@@ -33,18 +33,18 @@
 - Put the folders into my class folder
 ### Topic Modeling in R
 #### No errors in this exercise!
-- install.packages("mallet")
-- library("mallet")
-- install.packages("RCurl")
-- library("RCurl")
-- x <- getURL("https://raw.githubusercontent.com/shawngraham/exercise/gh-pages/CND.csv", .opts = list(ssl.verifypeer = FALSE))
-- documents <- read.csv(text = x, col.names=c("Article_ID", "Newspaper Title", "Newspaper City", "Newspaper Province", "Newspaper Country", "Year", "Month", "Day", "Article Type", "Text", "Keywords"), colClasses=rep("character", 3), sep=",", quote="")
-- counts <- table(documents$Newspaper.City)
-- barplot(counts, main="Cities", xlab="Number of Articles")
-- years <- table(documents$Year)
-- barplot(years, main="Publication Year", xlab="Year", ylab="Number of Articles")
-- Created and filled en.txt
-- mallet.instances <- mallet.import(documents$Article_ID, documents$Text, "en.txt", token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")
+1 install.packages("mallet")
+2 library("mallet")
+3 install.packages("RCurl")
+4 library("RCurl")
+5 x <- getURL("https://raw.githubusercontent.com/shawngraham/exercise/gh-pages/CND.csv", .opts = list(ssl.verifypeer = FALSE))
+6 documents <- read.csv(text = x, col.names=c("Article_ID", "Newspaper Title", "Newspaper City", "Newspaper Province", "Newspaper Country", "Year", "Month", "Day", "Article Type", "Text", "Keywords"), colClasses=rep("character", 3), sep=",", quote="")
+7 counts <- table(documents$Newspaper.City)
+8 barplot(counts, main="Cities", xlab="Number of Articles")
+9 years <- table(documents$Year)
+10  barplot(years, main="Publication Year", xlab="Year", ylab="Number of Articles")
+11  Created and filled en.txt
+12  mallet.instances <- mallet.import(documents$Article_ID, documents$Text, "en.txt", token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")
 - documents <- mallet.read.dir("/home/maggiesherwin/CND")
 #### Okay, so one error, but I am not sure what this line in the code does, or if it was necessary at all. 
 - mallet.instances <- mallet.import(documents$id, documents$text, "en.txt", token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")
