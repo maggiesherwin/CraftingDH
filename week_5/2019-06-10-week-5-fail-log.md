@@ -44,9 +44,9 @@
     - years <- table(documents$Year)
     - barplot(years, main="Publication Year", xlab="Year", ylab="Number of Articles")
     - Created and filled en.txt
-    -  mallet.instances <- mallet.import(documents$Article_ID, documents$Text, "en.txt", token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")
-    - documents <- mallet.read.dir("/home/maggiesherwin/CND")
-    - mallet.instances <- mallet.import(documents$id, documents$text, "en.txt", token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")
+    - mallet.instances <- mallet.import(documents$Article_ID, documents$Text, "en.txt", token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")
+    - #documents <- mallet.read.dir("/home/maggiesherwin/CND")
+    - #mallet.instances <- mallet.import(documents$id, documents$text, "en.txt", token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")
     - num.topics <- 20
     - topic.model <- MalletLDA(num.topics)
     - topic.model$loadDocuments(mallet.instances)
@@ -81,9 +81,9 @@
     - layout1 <- layout.fruchterman.reingold(g, niter=100)
     - plot(g, layout=layout1, edge.curved = TRUE, vertex.size = 1, vertex.color= "grey", edge.arrow.size = 0, vertex.label.dist=0.5, vertex.label = NA)
     - write.graph(g, file="cnd.graphml", format="graphml")
-#### Okay, so one error, caused by trying to read from both the web and a directory. This was solved by removing these two lines: 
-    - ~~documents <- mallet.read.dir("/home/maggiesherwin/CND")~~
-    - ~~mallet.instances <- mallet.import(documents$id, documents$text, "en.txt", token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")~~
+#### Okay, so one error, caused by trying to read from both the web and a directory. The lines causing the issue are marked with # above. This was solved by removing these two lines: 
+ - ~~documents <- mallet.read.dir("/home/maggiesherwin/CND")~~
+ - ~~mallet.instances <- mallet.import(documents$id, documents$text, "en.txt", token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")~~
 ### Overview
 - Lorem ipsum
 ### AntConc
