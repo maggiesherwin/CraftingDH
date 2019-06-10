@@ -83,7 +83,6 @@
 - layout1 <- layout.fruchterman.reingold(g, niter=100)
 - plot(g, layout=layout1, edge.curved = TRUE, vertex.size = 1, vertex.color= "grey", edge.arrow.size = 0, vertex.label.dist=0.5, vertex.label = NA)
 - write.graph(g, file="cnd.graphml", format="graphml")
-
 ### Overview
 - Lorem ipsum
 ### AntConc
