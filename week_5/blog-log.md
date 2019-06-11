@@ -1,7 +1,11 @@
 # Week 5
 
 ## Prompt
-Select one of the articles behind the links above (and/or in the exercises) to annotate. Ask yourself: who benefits from this? Who is hurt from this? Make an entry in your blog on this theme.
+The readings this week really made me think about how information is read and portrayed, and how important it is to consider. Once again, I will bring up synonyms, and the fact that it is difficult for us to remember every search term we should search. WHY IS THIS NOT A COMMON SEARCH FEATURE?? This is especially important when considering diaries and letters, which might include slang or regional terms. When we forget these things, we are automatically devaluing the works that use them because we have filtered them out through our own ignorance. 
+
+Visualizations can also hurt the work that a historian does in order to make the visualization itself, in that they distill so much research into a single image. While this might be useful when used with a larger text, there are many readers that will look at a visualization and assume that it is all they need in order to understand something. My mind goes to graphs whose correlation seems to suggest a trend or connection, but in reality there is no way to connect them. And yet, some will look at this graph and believe it to be revealing new information, never realizing that what they have learned is completely arbitrary.
+
+Visualizations are beneficial in the ways that they can provide a very surface expression of a lot of information, an expression that can be useful at the beginning, or used within the context of a larger work. They can reveal things that staring at text cannot show, and can help a more in-depth work, but can never supplement it. 
 
 For the exercises, I found myself thinking about who benefits and who is hurt in the context of "what tool can give me the most information in a way that I can understand". By this I mean that no relevant information is left behind, or is presented in a way that would make me dismiss it as irrelevant. 
 
