@@ -1,0 +1,1 @@
+the second part is a short 500 word post (or video, or other digital form where ‘500 words’ gives you an indication of relative effort involved) that reflects on your growth as a historian over the term with reference to the analysis in part one. Identify your greatest weakness and greatest strength that you have discovered as a result of taking this course.
